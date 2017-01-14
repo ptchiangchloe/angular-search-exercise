@@ -1,28 +1,9 @@
-# AngularJS-Boilerplate
-Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks
-
-# Features
-* SASS support including sourceMaps
-* Minimal CSS styling of the view
-* Gulp watch, build and local server tasks
-* Responsive navigation
-* Owl slider directive
-* localStorage service for set, get, remove data
-* queryService $http wrapper to handle calls
-* clear folder structure
-* less than 10 request in build version
-* minified CSS and JS build files
-* google analytics snippet
+# Angular Search Exercise
 
 ## Download
-```bash
-bower install angularjs-boilerplate
-```
-
-or
 
 ```bash
-git clone https://github.com/jbutko/AngularJS-Boilerplate.git
+git clone https://github.com/ptchiangchloe/angular-search-exercise.git
 ```
 
 ## 1. Setup
@@ -67,6 +48,7 @@ gulp server-build
 If this is only for development or learning purposes, the easiest thing to do is to disable the Same Origin Policy in your browser. Be aware that if you do this, you’re opening your browser up to security risks. Follow these instructions:
 
 Chrome
+
 Firefox
 
 This is more of a last resort. Modifying the server to support CORS or running a proxy are the best approaches.

@@ -1,0 +1,24 @@
+<div layout-align='top center'>
+    <md-content layout="column" layout-align="">
+      <div class="app-content">
+        <form ng-submit="search()" name="searchForm" layout="row" layout-align="left">
+         <div layout-gt-sm="row">
+           <md-input-container class="md-block" flex-gt-sm>
+            <label>Search by tag</label>
+            <input ng-model="searchTerm">
+          </md-input-container>
+           <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+           <md-button class="md-raised" ng-click="search()">Search</md-button>
+         </section>
+         </div>
+       </form>
+       <div layout="row" layout-margin layout-wrap layout-align="center center" class="img-container" >
+         <md-card ng-repeat="item in results.items" class='card-container' layout='column' layout-align="center">
+           <h3 layout="row" layout-align="center" class='img-title'>{{item.title}}</h3>
+           <img ng-src="{{item.media.m}}" alt="" class=" target-img" >
+         </md-card>
+         <p>{{result}}</p>
+      </div>
+      </div>
+    </md-content>
+</div>

@@ -1,0 +1,21 @@
+html, body{
+  background-color: #cfcfcf;
+}
+
+.card {
+  margin: 0 30px 25px 30px;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-title{
+  font-size: 20px;;
+}
+
+.target-img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}

@@ -14,5 +14,4 @@
       'API_URL': 'http://www.yourAPIurl.com/'
     });
 
-
 })();

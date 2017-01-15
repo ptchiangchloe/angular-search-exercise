@@ -98,7 +98,6 @@
   function run($rootScope, $location) {
     $rootScope.endPoint = 'http://localhost:8080'
     // put here everything that you need to run on page load
-
   }
 
 })();
